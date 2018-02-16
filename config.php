@@ -7,8 +7,8 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://127.0.0.1/ervasmedicinais/");
-	$config['dbname'] = 'corretor';
+	define("BASE_URL", "http://127.0.0.1/backup/");
+	$config['dbname'] = 'backup';
 	$config['host'] = 'localhost';
 	$config['dbuser'] = 'root';
 	$config['dbpass'] = '';
