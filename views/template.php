@@ -66,10 +66,50 @@
 				<button style="background-color: #fff; color:#333"><i class="fa fa-database"></i></button><br />
 				<span>Espaço</span>
 			</div>
-
-		</div>
-		
+		</div>		
 	</div>
+	<div class="media_players">
+		<div class="media_players_mp3">
+			<div class="frames">
+				<span>Azul Piscina - mp3</span>
+
+			</div>
+			<div class="progresso-bar">
+				<div class="progresso-up">
+					
+				</div>
+			</div>
+			<div class="media_players_controls">
+				<button><i class="fa fa-play"></i></button>
+				<button><i class="fa fa-pause"></i></button>
+				<button><i class="fa fa-volume-up"></i></button>
+				<button class="expand"><i class="fa fa-expand"></i></button>
+			</div>
+		</div>
+	</div>
+	<!-- inicio modal dos frames abertos -->
+	<div class="frames-modal">
+		<div class="media_players_modal">
+			<div class="media_players_mp3-modal">
+				<div class="frames-modal-title">
+					<span>Azul Piscina - mp3</span>
+
+				</div>
+				<div class="progresso-bar_modal">
+					<div class="progresso_up_modal">
+						
+					</div>
+				</div>
+				<div class="media_players_controls_modal">
+					<button><i class="fa fa-play"></i></button>
+					<button><i class="fa fa-pause"></i></button>
+					<button><i class="fa fa-volume-up"></i></button>
+					<button class="expand"><i class="fa fa-compress"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- fim dos frames abertos em modal -->
 	<?php $this->loadViewInTemplate($viewName, $viewData) ?>	
 	<div style="clear: both;"></div>
 </body>
