@@ -72,6 +72,7 @@
 		<div class="media_players_mp3">
 			<div class="frames">
 				<span>Azul Piscina - mp3</span>
+				<a href="javascript:;" class="close_frame">x</a>
 
 			</div>
 			<div class="progresso-bar">
@@ -104,12 +105,19 @@
 					<button><i class="fa fa-play"></i></button>
 					<button><i class="fa fa-pause"></i></button>
 					<button><i class="fa fa-volume-up"></i></button>
-					<button class="expand"><i class="fa fa-compress"></i></button>
+					<button class="compress"><i class="fa fa-compress"></i></button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- fim dos frames abertos em modal -->
+	<div class="view-image">
+		<button class="btn btn-danger btn-xs bt">X</button>
+		<!-- criar opcoes (excluir, ver datas de upload, adicionar comentario, enviar, salvar na maquina, publicar em meu mural...) -->
+		<div class="modal_imagem">
+			<img src="">
+		</div>
+	</div>
 	<?php $this->loadViewInTemplate($viewName, $viewData) ?>	
 	<div style="clear: both;"></div>
 </body>

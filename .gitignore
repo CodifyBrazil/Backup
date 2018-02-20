@@ -1,3 +1,7 @@
 *.sql
 *.txt
 *.xml
+*.DS_Store
+*.py
+*.c
+*.net
