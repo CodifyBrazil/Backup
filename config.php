@@ -8,9 +8,9 @@ global $db;
 $config = array();
 if(ENVIRONMENT == 'development') {
 	define("BASE_URL", "http://127.0.0.1/backup/");
-	$config['dbname'] = 'backup';
-	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
+	$config['dbname'] = '';
+	$config['host'] = '';
+	$config['dbuser'] = '';
 	$config['dbpass'] = '';
 } else {
 	define("BASE_URL", "http://127.0.0.1/nova_loja_2.0/");
